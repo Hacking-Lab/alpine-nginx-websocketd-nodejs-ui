@@ -31,6 +31,5 @@ you must copy the config.json.hl to config.json to make it ready for Hacking-Lab
 cp source/opt/nodejs/config.json.hl source/opt/nodejs/config.json
 ```
 
-
-
-
+# Video Swiss German language
+* https://www.youtube.com/watch?v=SAJBcd-BhHY
