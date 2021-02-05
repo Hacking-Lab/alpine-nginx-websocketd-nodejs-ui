@@ -1,9 +1,13 @@
-# alpine-nginx-nodejs-websocketd
+# alpine-nginx-websocketd-nodejs-ui
 Alpine Docker Image with NGINX, NodeJS, WebSocketd
 * problem: libwebsockets without -DLWS_WITH_LIBUV=ON breaks ttyd package
 * fixing the problem with https://github.com/void-linux/void-packages/issues/19441
 * fixing the problem with https://gitlab.alpinelinux.org/alpine/aports/-/issues/11936
 * fixing the problem: libwebsockets context creation failed
+
+## Purpose
+* docker with nginx, websocketd, nodejs and bash or python script launcher
+* make your bash or python script web enabled
 
 ## Building and Testing
 ```
