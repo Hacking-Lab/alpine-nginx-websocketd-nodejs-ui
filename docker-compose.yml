@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  alpine-nginx-websocketd-nodejs-ui:
+    build: .
+    image: hackinglab/alpine-nginx-websocketd-nodejs-ui:3.2
+    environment:
+    - AUTHOR=e1
+    - HL_USER_USERNAME=hacker
+    - HL_USER_PASSWORD=compass
+    ports:
+      - 80:80

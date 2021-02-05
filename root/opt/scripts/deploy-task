@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd /opt/data
+echo "================================"
+echo ${HTTP_X_REAL_IP} ${QUERY_STRING} >> /opt/data/unfiltered-query.log  
+argument=`echo ${QUERY_STRING} | tr -d '\\\|";&%/_[]{}$<>/*"\&'`
+trimmed=`echo ${argument#*=} | tr -d '\\\|";&%/_[]{}$<>/*"\&'`
+echo "Release 2021-02-05--501"
+date                                                            
+echo -e "`date` \t ${HTTP_X_REAL_IP} \t $trimmed \t ${HTTP_USER_AGENT}" >> /opt/data/filtered-query.log
+echo "full CGI input from the user: $argument"   
+echo "trimmed input from the user: $trimmed"   
+echo "=========== DONE ==============="
+

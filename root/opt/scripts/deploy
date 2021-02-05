@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /winattacklab/
+
+echo "============================================="
+date
+echo "Release 2021-02-05--501"
+echo "please enter string and click Run Task"
+echo "============================================="

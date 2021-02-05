@@ -1,0 +1,6 @@
+{
+    "apiUrl": "http://localhost/static",
+    "wsUrl": "ws://localhost/api",
+    "verbose": "true",
+    "appName": "TCP/UDP to WebSocket"
+}

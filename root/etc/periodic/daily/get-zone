@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "`date`: this script gets executed daily" >> /tmp/cron.log
+
+

@@ -1,0 +1,13 @@
+nav#sidebarMenu.col-md-3.col-lg-2.d-md-block.bg-light.sidebar.collapse
+    div.sidebar-sticky.pt-3
+        ul.nav.flex-column
+            li.nav-item
+                a.nav-link(href='/tool/deploy' class=(current === '/tool/deploy' ? 'active' : null))
+                    include ../icons/deploy
+                    | HackMe
+            li.nav-item
+                a.nav-link(href='/site/readme' class=(current === '/site/readme' ? 'active' : null))
+                    | Readme
+            li.nav-item
+                a.nav-link(href='/site/about' class=(current === '/site/about' ? 'active' : null))
+                    | About
