@@ -1,6 +1,0 @@
-{
-    "apiUrl": "https://hobo.idocker.REALM_DOMAIN_SUFFIX/static",
-    "wsUrl": "wss://hobo.idocker.REALM_DOMAIN_SUFFIX/api",
-    "verbose": "true",
-    "appName": "TCP/UDP to WebSocket"
-}

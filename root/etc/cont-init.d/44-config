@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+
+source /etc/hluser
+
+sed -i -e "s/API_URL/$API_URL/g" /opt/nodejs/config.json
+sed -i -e "s/WS_URL/$WS_URL/g" /opt/nodejs/config.json
+
+
