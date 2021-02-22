@@ -38,7 +38,7 @@ function scrollTerminalToBottom() {
 
 function runTask() {
   clear();
-  const argument = $('#task-argument').val().trim();
+  const argument = encodeURIComponent($('#task-argument').val().trim());
   if (argument.length > 0) {
     setupWebSocket(`task?argument=${argument}`);
     $('#task-argument').val('');
