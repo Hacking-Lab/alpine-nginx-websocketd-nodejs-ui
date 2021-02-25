@@ -9,7 +9,7 @@ toolsRouter.get('/', (req, res) => {
 
 toolsRouter.get('/deploy', (req, res) => {
   res.render('tool', {
-    title: '__MH__ Crypto Challenge',
+    title: 'NGINX NodeJS Express WebSocketD',
     websocketUri: `${config.wsUrl}/deploy`,
     verbose: config.verbose,
   });

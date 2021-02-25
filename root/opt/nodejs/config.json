@@ -2,5 +2,5 @@
     "apiUrl": "API_URL/static",
     "wsUrl": "WS_URL/api",
     "verbose": "true",
-    "appName": "TCP/UDP to WebSocket"
+    "appName": "WebSocket UI"
 }

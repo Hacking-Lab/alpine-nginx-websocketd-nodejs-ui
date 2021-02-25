@@ -1,7 +1,4 @@
 ## Introduction
-Search interface for TCP/UDP service
+Docker with NodeJS Express UI and Websocketd backend
 
-## Rules
-1 to be defined what this service accepts
-2 to be defined what this service accepts
 
