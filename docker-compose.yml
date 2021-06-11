@@ -8,7 +8,7 @@ services:
     - AUTHOR=e1
     - HL_USER_USERNAME=hacker
     - HL_USER_PASSWORD=compass
-    - API_URL=http:\/\/localhost
-    - WS_URL=ws:\/\/localhost
+    - API_URL=http:\/\/192.168.75.128
+    - WS_URL=ws:\/\/192.168.75.128
     ports:
       - 80:80
