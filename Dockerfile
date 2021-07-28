@@ -1,6 +1,6 @@
 FROM golang:latest as websocketd
 ENV CGO_ENABLED 0
-RUN go get github.com/joewalnes/websocketd
+RUN go get github.com/ibuetler/websocketd
 
 
 FROM hackinglab/alpine-base:3.2
